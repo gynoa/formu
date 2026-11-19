@@ -32,16 +32,22 @@ body {
 }
 
 .logo {
-    color: #244d7c;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    margin-bottom: 12px;
+    display: block;
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 12px;
 }
 
 h1 {
     color: #17365d;
     font-size: 25px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #17365d;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 

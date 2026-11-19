@@ -9,12 +9,18 @@
   <body>
     <div class="contenedor">
       <header class="encabezado">
-        <div class="logo">REGISTRO DIGITAL</div>
-        <h1>Formulario de Registro</h1>
+        <img class="logo" src="logo-taller.jpeg" alt="SEMAS HR Global" />
+        <h1>Taller Gestión por Competencia</h1>
+        <h2>Listado de participación</h2>
         <p>Complete los siguientes datos para realizar su registro.</p>
       </header>
 
       <form id="formulario">
+        <div class="campo">
+          <label for="fecha">Fecha</label>
+          <input type="date" id="fecha" name="fecha" readonly required />
+        </div>
+
         <div class="campo">
           <label for="nombre">Nombre completo</label>
           <input
